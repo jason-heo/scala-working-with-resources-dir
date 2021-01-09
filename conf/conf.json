@@ -1,0 +1,7 @@
+{
+  "name": "myprogram",
+  "server": {
+    "hostname": "localhost",
+    "port": 8080
+  }
+}
