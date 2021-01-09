@@ -12,4 +12,5 @@ libraryDependencies ++= Seq(
 
 assemblyJarName in assembly := "example.jar"
 
-Compile / unmanagedResourceDirectories += baseDirectory.value / "conf"
+// resources 디렉터리를 "src/main/resources/"에서 "conf/로 변경"
+Compile / resourceDirectory := baseDirectory.value / "conf"
